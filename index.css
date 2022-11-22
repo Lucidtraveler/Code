@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+}
+/* Ignore above */
+
+body {
+	margin: 0;
+	color: hotpink;
+}
+
+@media (prefers-color-scheme: dark) {
+	body {
+		background-color: #36393f;
+	}
+}
+
+.flex-thing {
+	display: flex;
+	flex-direction: row-reverse;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.center-text {
+	text-align: center;
+}
+
+.card {
+	display: inline-block;
+
+	color: blue;
+	background-color: crimson;
+
+	margin: 20px;
+	padding: 20px;
+
+	border: 1px solid black;
+	border-radius: 8px;
+
+	user-select: none;
+}
+.card.big {
+	font-size: 25px;
+}
+
+@media (max-width: 768px) {
+	.card {
+		display: block;
+	}
+}
+
+i {
+	margin-bottom: 20px;
+}
+
+img {
+	display: block;
+	margin: 0 auto;
+	max-width: 100%;
+}
+
+iframe {
+	pointer-events: none;
+}
