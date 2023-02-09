@@ -1,6 +1,6 @@
 const prankCard = document.getElementById("pranked");
 
-const roll = `<iframe width="560" height="315" src="https://www.youtube.com/embed/dQw4w9WgXcQ?autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>`;
+const roll = `<iframe width="1879" height="718" src="https://www.youtube.com/embed/2Pgl-JC2sgk" title="PINK GUY - セックス大好き" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>`;
 
 function addPrank() {
 	console.log("Hello, world!");
