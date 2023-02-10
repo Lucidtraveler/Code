@@ -27,6 +27,10 @@ p {
 	flex-wrap: wrap;
 }
 
+.main {
+	justify-content: flex-start;
+}
+
 .center-text {
 	text-align: center;
 }
@@ -49,6 +53,10 @@ p {
 }
 .card.big {
 	font-size: 25px;
+}
+
+.card.big:hover {
+	background-color: #4a4c51;
 }
 
 @media (max-width: 768px) {
