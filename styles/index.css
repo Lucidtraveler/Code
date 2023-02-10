@@ -53,14 +53,11 @@ ul {
   li a:hover {
 	background-color: #111;
   }
+  
 .active {
 	background-color: #4a4c51;
 }
 
-  /* Change the link color to #111 (black) on hover */
-  li div:hover {
-	background-color: #111;
-  }
 .center-text {
 	text-align: center;
 }
