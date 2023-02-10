@@ -27,10 +27,40 @@ p {
 	flex-wrap: wrap;
 }
 
-.main {
-	justify-content: flex-start;
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #2e3136;
+  }
+  
+  li {
+	float: left;
+  }
+  
+  li a {
+	font-family: 'Nunito', sans-serif;
+	display: block;
+	border-radius: 5px;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+  }
+  
+  /* Change the link color to #111 (black) on hover */
+  li a:hover {
+	background-color: #111;
+  
+.active {
+	background-color: #4a4c51;
 }
 
+  /* Change the link color to #111 (black) on hover */
+  li div:hover {
+	background-color: #111;
+  }
 .center-text {
 	text-align: center;
 }
