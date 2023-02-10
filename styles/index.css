@@ -7,13 +7,17 @@
 
 body {
 	margin: 0;
-	color: hotpink;
+	color: #fff;
 }
 
 @media (prefers-color-scheme: dark) {
 	body {
 		background-color: #2e3136;
 	}
+}
+
+p {
+	font-family: 'Nunito', sans-serif;
 }
 
 .flex-thing {
@@ -28,16 +32,18 @@ body {
 }
 
 .card {
-	display: inline-block;
 
-	color: blue;
-	background-color: crimson;
+	font-family: 'Nunito', sans-serif;
+
+	display: inline-block;
+	
+	border-radius: 15px;
+
+	color: #fff;
+	background-color: #1e2124;
 
 	margin: 20px;
-	padding: 20px;
-
-	border: 1px solid black;
-	border-radius: 8px;
+	padding: 19px;
 
 	user-select: none;
 }
