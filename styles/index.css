@@ -16,8 +16,19 @@ body {
 	}
 }
 
+@media (max-width: 768px) {
+	.card {
+		display: block;
+	}
+}
+
 p {
 	font-family: 'Nunito', sans-serif;
+}
+
+p a {
+	color: #fff;
+	text-decoration: none;
 }
 
 img {
@@ -81,7 +92,7 @@ ul {
 	color: #fff;
 	background-color: #1e2124;
 
-	margin-top: 100px;
+	margin-top: 200px;
 	margin-bottom: 50px;
 	padding: 19px;
 
@@ -93,12 +104,6 @@ ul {
 
 .card.big:hover {
 	background-color: #4a4c51;
-}
-
-@media (max-width: 768px) {
-	.card {
-		display: block;
-	}
 }
 
 i {
