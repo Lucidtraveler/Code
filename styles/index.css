@@ -102,8 +102,41 @@ ul {
 	font-size: 25px;
 }
 
+.card.big a {
+	text-decoration: none;
+}
+
+.card.big a:visited {
+	color: #4a4c51;
+}
+
+.card.big:hover a {
+	
+	color: #fff;
+	background-color: #4a4c51;
+}
+
 .card.big:hover {
 	background-color: #4a4c51;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #2e3136;
+	min-width: 160px;
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+	padding: 12px 16px;
+	z-index: 1;
+}
+  
+  .dropdown:hover .dropdown-content {
+	display: block;
 }
 
 i {
