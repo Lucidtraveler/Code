@@ -1,41 +1,51 @@
 <!DOCTYPE html>
 <html lang="en-US">
-	<head>
-		<meta charset="UTF-8" />
-		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Lucidstar</title>
-		<link rel="icon" type="image/x-icon" href="../images/lucidstar.ico" />
-		<link rel="stylesheet" href="../styles/index.css" />
-		<link rel="preconnect" href="https://fonts.googleapis.com" />
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-		<link
-			href="https://fonts.googleapis.com/css2?family=Nunito&display=swap"
-			rel="stylesheet"
-		/>
-		<script src="../scripts/index.js" defer></script>
-	</head>
-	<body>
-		<ul>
-			<li>
-				<a style="padding: 0px" href="./Index.html"
-					><img
-						src="../images/LucidstarMain.png"
-						alt="Main"
-						width="65"
-						height="65"
-					/>
-				</a>
-			</li>
-			<li class="active"><a href="/pages/Forum.html">Forum</a></li>
-			<li><a href="/pages/Images.html">Images</a></li>
-			<li><a href="/pages/Apps.html">Apps</a></li>
-			<li><a href="/pages/Projects.html">Projects</a></li>
-			<li style="float: right">
-				<a href="/pages/About.html"> About</a>
-			</li>
-		</ul>
-		<hr style="height:50px">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Lucidstar Forum</title>
+	<link rel="icon" type="image/x-icon" href="../images/lucidstar.ico" />
+	<link rel="stylesheet" href="../styles/index.css" />
+	<link rel="preconnect" href="https://fonts.googleapis.com" />
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+	<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet" />
+</head>
 
-	</body>
-</html>
+<body>
+	<ul>
+		<li>
+			<a style="padding: 0px" href="./Index.html">
+				<img src="../images/LucidstarMain.png" alt="Main" width="65" height="65" />
+			</a>
+		</li>
+		<li class="active"><a href="/pages/Forum.html">Forum</a></li>
+		<li><a href="/pages/Images.html">Images</a></li>
+		<li><a href="/pages/Apps.html">Apps</a></li>
+		<li><a href="/pages/Projects.html">Projects</a></li>
+		<li style="float: right"><a href="/pages/About.html">About</a></li>
+	</ul>
+
+	<hr >
+
+	<section class="forum-compose">
+		<h1>Create a post</h1>
+		<p>Welcome to the Lucidstar Forum! This is a place for users to discuss topics related to Lucidstar, share ideas, ask questions, and connect with other members of the community. Please adhere to the forum guidelines and be respectful to others.</p>
+		<input type="text" placeholder="Post Title" class="forum_title" />
+		<hr style="height:25px">
+		<textarea placeholder="Write your post here..." class="forum-body"></textarea>
+		<button class="forum_submit">Submit Post</button>
+	</section>
+
+	<section class="forum-posts">
+		<h2>Posts</h2>
+
+		<div class="forum-post">
+			<h3>Welcome to Lucidstar</h3>
+			<p>This is the beginning of the forum.</p>
+		</div>
+
+		<div class="forum-post">
+			<h3>The Fate of Morpheus</h3>
+			<p>Project updates and discussion go here.</p>
+		</div>
+	</section>
